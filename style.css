@@ -1,0 +1,160 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background-color: #EEE;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+}
+
+/* container start */
+
+.container{
+   width: 1000px;
+   background-color: rgb(209, 244, 244);
+   margin: 0 auto;
+   padding: 20px;
+}
+/* container end */
+/* header start */
+header{
+
+}
+.profile-image{
+   width: 100px;
+   height: 110px;
+   border: 3px solid white;
+   border-radius: 50%;
+   float: left;
+}
+.header-bio{
+   float: left;
+   padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+   color: #11999e;
+}
+.header-contact{
+   float: right;
+   padding: 30px;
+   
+}
+.header-contact a{
+   color: #198f93;
+   text-decoration: none;
+   transition: 1s;
+}
+.header-contact a:hover{
+   text-decoration: underline;
+   color: orange;
+   font: 1.3em sans-serif;
+}
+.header-contact a:active{
+   color: red;
+}
+.div-clear{
+   clear: both;
+}
+hr{
+   border: 3px solid black;
+   width: 100%;
+   margin: 20px auto;
+   border-bottom: none;
+}
+
+/* header end */
+
+
+/* main start */
+/* pearsonal-section start */
+.pearsonal-section{
+
+}
+.content{
+   margin-bottom: 30px;
+}
+.left-div{
+   width: 30%;
+   float: left;
+}
+.right-div{
+   width: 70%;
+   float: right;
+
+}
+.common-hr{
+   border: 1px solid black;
+   border-bottom: none;
+   width: 100%;
+   margin: 20px auto;
+
+
+}
+/* pearsonal-section end */
+/* work experience section start */
+
+#work-experience-section{
+
+}
+/* work experience section end */
+/* key skills start */
+
+#key-skills{
+
+}
+
+/* key skills end */
+/* Education start */
+
+#Education-section{
+   
+}
+.left-div-1{
+   width: 30%;
+   float: left;
+}
+.right-div-1{
+   width: 35%;
+   float: left;
+}
+.right-2{
+   width: 35%;
+   float: left;
+}
+.right-div-1 a{
+   text-decoration: none;
+   color: #198f93;
+}
+.right-div-1 a:hover{
+   text-decoration: underline;
+   color: blue;
+}
+/* Education end */
+/* main end */
+/* footer start */
+
+.bottom-contenir{
+   background-color: black;
+   text-align: center;
+   padding: 10px;
+}
+.bottom-contenir a{
+   color: #eee;
+   text-decoration: none;
+   margin: 20px;
+   transition: 1s;
+}
+.bottom-contenir p{
+   color: #eee;
+   margin: 20px;
+}
+.bottom-contenir a:hover{
+   text-decoration: underline;
+   color: #f40808;
+   font: 1.2em sans-serif;
+}
+
+/* footer end */
